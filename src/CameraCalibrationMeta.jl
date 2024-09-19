@@ -16,10 +16,9 @@ struct Calibration
     scale::LM
     k::Float64
     files::Vector{String}
-    real2image
-    image2real
+    real2image::ComposedFunction
+    image2real::ComposedFunction
 end
-
 
 """
     lens_distortion
