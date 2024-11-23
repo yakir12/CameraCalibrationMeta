@@ -1,7 +1,7 @@
 name = "CameraCalibrationMeta"
 uuid = "57a0c4f1-a71d-4b63-b13d-9a982f9bf6d8"
 authors = ["Yakir Gagnon <12.yakir@gmail.com>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
